@@ -7,7 +7,5 @@ export const ButtonWrapper = styled.div`
 `;
 export const BulletListWrapper = styled.div`
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
 `;

@@ -6,9 +6,14 @@ function App() {
     <div
       style={{
         display: 'flex',
-        flexDirection: 'column',
-        flex: '1 0 auto',
-        minHeight: '100vh',
+        position: 'relative',
+        top: 0,
+        right: 0,
+        left: 0,
+        bottom: 0,
+        height: '100vh',
+        alignItems: 'center',
+        justifyContent: 'center',
       }}
     >
       <Layout />

@@ -39,8 +39,21 @@ export const assetBlue = {
 export const classting = {
   classtingDisable: 'rgb(0, 200, 150)',
   classting: 'rgb(0, 200, 150)',
+  classting900: 'rgb(0, 200, 150, 0.9)',
+  classting800: 'rgb(0, 200, 150, 0.8)',
+  classting700: 'rgb(0, 200, 150, 0.7)',
+  classting600: 'rgb(0, 200, 150, 0.6)',
+};
+export const assetGreen = {
+  green100: '#E8F5E9',
+  green200: '#C8E6C9',
+  green300: '#A5D6A7',
+  green400: '#81C784',
+  green500: '#66BB6A',
+  green600: '#4CAF50',
 };
 export const primaryColor = {
+  ...assetGreen,
   ...assetGrey,
   ...assetYellow,
   ...assetRed,

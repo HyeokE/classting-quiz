@@ -18,6 +18,7 @@ import {
   SubTitleWrapper,
 } from './styled';
 import { QuizType } from '../../types/quiz';
+import Stopwatch from '../../components/common/Stopwatch';
 
 const Quiz = () => {
   const [selectAnswer, setSelectAnswer] = useState<string>('');
